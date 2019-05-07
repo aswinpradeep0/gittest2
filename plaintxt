@@ -1,0 +1,28 @@
+paste f1 f2
+tar -xvzf test.tar.gz
+sudo useradd -m xyz
+sudo chown xyz f1
+sudo usedel xyz
+sudo passwd xyz
+sudo usermod -L/-U xyz
+sudo usermod -e 2019-05-05 xyz
+sudo useradd xyz -d /home/xyz
+sudo usermod -d /home/xyz xyz/abc
+sudo usermod -f 7 xyz
+sudo usermod -l zyx xyzabc
+sudo groupadd grp1
+sudo usermod -G grp1 xyz
+cat /etc/passwd
+lname:pass:uid:gid:comment::home
+ap:password:2222:2222::/home/xyz:/bin/bash
+newusers bulk-users.txt
+touch bk{"adaa","ds"}.txt
+chmod -R ug+x dir1
+tar -zcvf $b.tar.gz *
+if [ -S out.txt] then grep "$str" out.txt
+echo "scale=2; $dsd/$dfdf"|bc
+xx=`echo $str|cut -c $((i+1))~
+xy=~cat t1.txt|wc -c~
+xyz=`grep -o "[%,^]" xyz.txt | ec -l `
+find . -empty -type d -delete
+git clean -f -d
